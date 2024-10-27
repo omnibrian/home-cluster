@@ -1,0 +1,11 @@
+.kubeconfig
+
+# SOPS
+*.secret.env
+*.secret.yaml
+*.key
+.decrypted~*
+
+# macOS
+.DS_Store
+Thumbs.db

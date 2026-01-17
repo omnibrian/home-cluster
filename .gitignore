@@ -1,3 +1,4 @@
+# kubernetes
 .kubeconfig
 
 # SOPS
@@ -5,6 +6,11 @@
 *.secret.yaml
 *.key
 .decrypted~*
+
+# terraform
+**/.terraform/*
+*.tfvars
+*.tfvars.json
 
 # macOS
 .DS_Store
